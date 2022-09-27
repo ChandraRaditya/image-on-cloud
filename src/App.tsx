@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>hallo ini image on cloud</h1>
+      <h1>Hallo ini image on cloud</h1>
     </div>
   );
 }

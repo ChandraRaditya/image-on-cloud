@@ -1,13 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import Home from "./Pages/Home";
+import { Provider } from "react-redux";
+import { store } from "./Redux/store";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hallo ini image on cloud</h1>
-      <h2>test</h2>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Home />
+      </div>
+    </Provider>
   );
 }
 
